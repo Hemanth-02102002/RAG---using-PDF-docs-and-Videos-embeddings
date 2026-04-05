@@ -30,6 +30,14 @@ This project implements the classic RAG pipeline end-to-end:
 
 ---
 
+## 🖼 Screenshots
+
+![Academic QA — Chat Interface](assets/screenshot.png)
+
+> *The Academic QA chat interface answering a question about transformer architectures, with source document and page number citations displayed below the response.*
+
+---
+
 ## 🛠 Tools & Technologies
 
 ### Core Framework
@@ -158,6 +166,8 @@ Traditional_RAG/
 ├── pyproject.toml      # Project metadata and dependencies
 ├── .env                # API keys (not committed to version control)
 ├── .gitignore
+├── assets/
+│   └── screenshot.png  # App UI screenshot
 ├── data/               # Place your PDF source documents here
 │   └── Hands-On_LLM.pdf
 └── docs/
